@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.global {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+    height: 720px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-content {
+    margin: 10px;
+}
+
+.heading-content p {
+    width: 400px;
+}
+
+.form-content {
+    display: flex;
+    margin-top: 10px;
+}
+
+.form {
+    margin: 10px;
+}
+
+.form input{
+    margin-top: 10px;
+}
+
+.email {
+    margin: 10px;
+}
+.email input {
+    margin-top: 10px;
+}
+
+.message {
+    margin: 10px;
+}
+
+input {
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 380px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+button{
+    margin: 10px;
+    width: 380px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+
+
+.footer-content {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.profil {
+    height: 45px;
+    width: 45px;
+    background-color: #ccc;
+    border-radius: 100%;
+}
+
+.name {
+    display: inline;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.name p {
+    border: 1px solid black;
+    border-radius: 11px;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+* {
+    font-family: 'Open Sauce One', sans-serif;
+    font-size: 14px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.header-logo {
+    width: 10rem;
+}
+
+.logo-register {
+    width: 20rem;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+}
+
+.form-daftar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    border: solid;
+    border-width: 2px;
+    border-color: rgba(207, 207, 207, 0.45);
+
+    text-align: center;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+}

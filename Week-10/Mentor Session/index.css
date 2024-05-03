@@ -3,18 +3,81 @@
     font-size: 14px;
 }
 
+.text-accent {
+	color: #10a315 !important;
+}
+
+.text-mute {
+	color: #9e9e9e !important;
+}
+
+.garis-teks {
+    display: flex;
+    align-items: center;
+}
+.garis {
+    flex-grow: 1;
+    border-top: 1px solid #9e9e9e;
+}
+.teks {
+    margin: 0 10px;
+}
+
+/* HEADER */
 .main-header {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1rem;
 }
 
 .header-logo {
-    width: 10rem;
+    width: 12rem;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+}
+
+
+/* SECTION */
+.btn-google {
+    display: flex;
+    width: 100%;
+    border: 1px solid rgb(198, 198, 198);
+    background-color: white;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+	/* border-width: 2px; */
+	border-radius: 0.5rem;
+}
+
+.logo-google{
+    width: 2rem;
+    padding-left: 1rem;
+}
+
+.text-google {
+	width: 100%;
+    padding-right: 2rem;
+	align-self: center;
+    font-weight: 700;
 }
 
 .logo-register {
-    width: 20rem;
+    width: 24rem;
+    align-self: center;
+}
+
+.info-register {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.info-register h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 0;
 }
 
 .main-section {
@@ -23,11 +86,7 @@
 }
 
 .form-daftar {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-
+    padding: 2rem;
     border: solid;
     border-width: 2px;
     border-color: rgba(207, 207, 207, 0.45);
@@ -35,7 +94,91 @@
     text-align: center;
 }
 
+.form-daftar h1 {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.form-daftar p {
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+.form-email {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.form-email label {
+    text-align: left;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-email input {
+    height: 2.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+.example {
+    text-align: left;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: #9e9e9e 
+}
+
+.btn-daftar {
+    width: 100%;
+    background-color: rgb(136, 182, 215, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    height: 3.5rem;
+    color: rgba(181, 181, 181, 0.7);;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+
+/* FOOTER */
 .main-footer {
     display: flex;
     justify-content: center;
+    margin-top: 3rem;
+}
+
+/*mobile*/
+@media (min-width: 576px) {
+	html {
+		font-size: 10px;
+	}
+
+	.main-section {
+		flex-direction: column;
+	}
+}
+
+/*tablet*/
+@media (min-width: 768px) {
+	html {
+		font-size: 12px;
+	}
+
+	.main-section {
+		flex-direction: row;
+	}
+}
+
+/*laptop*/
+@media (min-width: 992px) {
+	html {
+		font-size: 14px;
+	}
+
+	.main-section {
+		flex-direction: row;
+	}
 }

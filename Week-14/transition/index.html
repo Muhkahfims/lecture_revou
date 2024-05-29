@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+</head>
+<style>
+    body {
+        background-color: rgb(54, 54, 54);
+        color: white;
+    }
+    h1{
+        color: yellow;
+        transition: color 0.3s ease;
+    }
+    h1:hover {
+        color: green;
+    }
+
+    .img-luffy{
+        height: 220px;
+        border: 1px solid rgb(0, 255, 102);
+        opacity: 100%;
+    }
+
+    .img-luffy:hover {
+        height: 300px;
+        transition: all 0.5s ease;
+        opacity: 0%;
+    }
+
+</style>
+<body>
+    <h1>Transisi</h1>
+    <span>cara membuat/implementasi transisi dengan menggunkan css doang</span>
+    <span>di css kita tinggal semat beberapa baris kode dalam .class atau langsung via tag htmlnya atau bisa lewat #id</span>
+    <span>transition: [css-property yang mau di transisiin[durasi transisi] [transisi-timing-function]]</span>
+    <br>
+    <br>
+    <code>.class-transisi {transition: color 0.3s ease;}</code>
+    <br>
+    <img class="img-luffy" src="https://mangaplus.shueisha.co.jp/drm/title/100140/title_thumbnail_portrait_list/326451.jpg?key=06f30bdfb865351f6fae46a420a474e1&duration=86400" alt="">
+    <br>
+    <br>
+    <span>biasanya transisi diterapkan untuk beberapa hal, yang paling biasa digunakan</span>
+    <ul>
+        <li></li>
+    </ul>
+</body>
+</html>
